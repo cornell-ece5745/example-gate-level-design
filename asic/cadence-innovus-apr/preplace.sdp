@@ -1,0 +1,35 @@
+
+datapath regincr {
+  column reg {
+    inst v/gen\[0\].dffr
+    inst v/gen\[1\].dffr
+    inst v/gen\[2\].dffr
+    inst v/gen\[3\].dffr
+    inst v/gen\[4\].dffr
+    inst v/gen\[5\].dffr
+    inst v/gen\[6\].dffr
+    inst v/gen\[7\].dffr
+    inst v/inv
+  }
+  column const {
+    inst v/gen\[0\].genblk1.logic_
+    inst v/gen\[1\].genblk1.logic_
+    inst v/gen\[2\].genblk1.logic_
+    inst v/gen\[3\].genblk1.logic_
+    inst v/gen\[4\].genblk1.logic_
+    inst v/gen\[5\].genblk1.logic_
+    inst v/gen\[6\].genblk1.logic_
+    inst v/gen\[7\].genblk1.logic_
+  }
+  column const {
+    inst v/gen\[0\].fa
+    inst v/gen\[1\].fa
+    inst v/gen\[2\].fa
+    inst v/gen\[3\].fa
+    inst v/gen\[4\].fa
+    inst v/gen\[5\].fa
+    inst v/gen\[6\].fa
+    inst v/gen\[7\].fa
+    inst v/cin0
+  }
+}
